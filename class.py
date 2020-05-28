@@ -27,10 +27,16 @@ class Operator:
 #Creating the objects of the class
 op=Operator(10,11,21)
 op1=Operator(32,12,12)
-op3=Operator(342,13,10)
-x=op+op1+op3
+op2=Operator(342,13,10)
+x=op+op1+op2
 print(x.a)
 print(x.b)
 print(x.c)
+print(op.__str__())
+print(op.__dict__)
+print(op1.__str__())
+print(op1.__dict__)
+print(op2.__str__())
+print(op2.__dict__)
         
             
