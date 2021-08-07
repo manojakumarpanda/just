@@ -20,9 +20,9 @@ logging.basicConfig(
     format = '%(asctime)s %(levelname)s %(message)s',
     filename = os.path.join(BASE_DIR,'djangoLog.log'))
 
-SECRET_KEY = 'udydurw5_oczztifqhgphinno#6g3j#4cvf4^rm6w3y(e-w=%!'
+SECRET_KEY = ''
 DEBUG = True
-# ALLOWED_HOSTS = ['13.235.184.110']
+# ALLOWED_HOSTS = ['']
 ALLOWED_HOSTS = ["*"]
 APPEND_SLASH=False
 SERVERURL="http://"+ALLOWED_HOSTS[0]
@@ -145,7 +145,7 @@ DATABASES = {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #         'NAME': 'icaapDB',
 #         'USER': 'ubuntu',
-#         'PASSWORD': 'sdfseD2A3RfsfJJ',
+#         'PASSWORD': '',
 #         'HOST': 'localhost',
 #         # 'PORT': '5432',
 #     }
@@ -177,8 +177,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
 ALLOWED_USER_EMAIL_DOMAINS = ["kpmg.com"]
-SUPERUSER = "superuser@kpmg.com"
-SUPERUSERPASS = "superuserpass@61011"
+SUPERUSER = ""
+SUPERUSERPASS = ""
 # DEFAULT_USER_ROLES = [""]
 # APP = {"FOLLWUPAI":1,"VMS":1}
 
